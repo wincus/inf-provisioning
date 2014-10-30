@@ -1,0 +1,16 @@
+#compute node       name            ip-deprecated   env         mem     image                       storage
+# devel
+server1             vm1             unused          devel       1024    launch-ubuntu-instance
+server2             vm2             unused          devel       1024    launch-ubuntu-instance
+server3             vm3             unused          devel       1024    launch-ubuntu-instance
+server4             vm4             unused          devel       1024    launch-redhat-instance
+# testing
+server1             vm5             unused          testing     1024    launch-ubuntu-instance
+server2             vm6             unused          testing     1024    launch-ubuntu-instance
+server3             vm7             unused          testing     1024    launch-ubuntu-instance
+server4             vm8             unused          testing     1024    launch-redhat-instance
+# production
+server1             vm9             unused          production  1024    launch-ubuntu-instance
+server2             vm10            unused          production  1024    launch-ubuntu-instance
+server3             vm11            unused          production  1024    launch-ubuntu-instance
+server4             vm12            unused          production  1024    launch-redhat-instance
